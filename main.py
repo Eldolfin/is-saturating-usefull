@@ -8,7 +8,6 @@ USAGE = INPUT / N_FACTORIES  # items / min / factory
 OUTPUT = 1  # items / min / factory
 
 time = range(N_MINUTES)
-time_until_full = N_FACTORIES * ITEM_STACK / INPUT
 
 saturating = []
 not_saturating = []
